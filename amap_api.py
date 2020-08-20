@@ -300,7 +300,7 @@ class AMap(object):
         return data
 
     def bus_path_plan(self, origin, destination, city, city_destination=None, extensions='base', strategy='0',
-                      night_flag='0', date=0, time=0, callback=None):
+                      night_flag='0', date=None, time=None, callback=None):
         """
         公交路径规划 API 可以规划综合各类公共（火车、公交、地铁）交通方式的通勤方案，并且返回通勤方案的数据。
 
